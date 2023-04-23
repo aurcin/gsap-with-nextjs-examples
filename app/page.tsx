@@ -28,6 +28,11 @@ function Home() {
               Using timeline as reference
             </Link>
           </li>
+          <li>
+            <Link href='/example-5' className={styles.linkContainer}>
+              Animation on state change
+            </Link>
+          </li>
         </ol>
       </nav>
     </>

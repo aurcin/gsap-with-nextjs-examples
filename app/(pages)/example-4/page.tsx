@@ -46,7 +46,9 @@ function Example() {
         <div className='box' />
         <div className='box' />
       </div>
-      <button onClick={handleReverse}>Reverse</button>
+      <button className='button' onClick={handleReverse}>
+        Reverse
+      </button>
     </>
   );
 }
