@@ -2,8 +2,6 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
-import styles from './style.module.css';
-
 function Example1() {
   function handleBoxClick(e: React.MouseEvent) {
     const box = e.target;

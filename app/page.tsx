@@ -5,12 +5,22 @@ import styles from './style.module.css';
 function Home() {
   return (
     <>
-      <h1>Here you can find some examples of usage gsap with nextjs project</h1>
+      <h1>Here you can find some examples of gsap with nextjs usage </h1>
       <nav>
         <ol role='navigation'>
           <li>
             <Link href='/example-1' className={styles.linkContainer}>
-              Basic example
+              Basic on click animation example
+            </Link>
+          </li>
+          <li>
+            <Link href='/example-2' className={styles.linkContainer}>
+              On component mount aniamtion example (using refs)
+            </Link>
+          </li>
+          <li>
+            <Link href='/example-3' className={styles.linkContainer}>
+              On component mount aniamtion example (using gsap.context)
             </Link>
           </li>
         </ol>
