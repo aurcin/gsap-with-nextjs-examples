@@ -2,7 +2,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
-function Example1() {
+function Example() {
   function handleBoxClick(e: React.MouseEvent) {
     const box = e.target;
     gsap.fromTo(
@@ -23,4 +23,4 @@ function Example1() {
   );
 }
 
-export default Example1;
+export default Example;

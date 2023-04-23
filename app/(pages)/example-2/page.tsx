@@ -2,7 +2,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
-function Example1() {
+function Example() {
   const box1 = React.useRef<HTMLDivElement>(null);
   const box2 = React.useRef<HTMLDivElement>(null);
   const box3 = React.useRef<HTMLDivElement>(null);
@@ -25,7 +25,9 @@ function Example1() {
   }, []);
   return (
     <>
-      <h1>Basic example doing gsap anitation when component is loaded</h1>
+      <h1>
+        Basic example doing gsap anitation when component is loaded using refs
+      </h1>
       <div className='playground'>
         <div className='box' ref={box1} />
         <div className='box' ref={box2} />
@@ -35,4 +37,4 @@ function Example1() {
   );
 }
 
-export default Example1;
+export default Example;

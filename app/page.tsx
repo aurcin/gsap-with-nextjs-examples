@@ -23,6 +23,11 @@ function Home() {
               On component mount aniamtion example (using gsap.context)
             </Link>
           </li>
+          <li>
+            <Link href='/example-4' className={styles.linkContainer}>
+              Using timeline as reference
+            </Link>
+          </li>
         </ol>
       </nav>
     </>

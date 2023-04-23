@@ -2,7 +2,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
-function Example1() {
+function Example() {
   const gsapRoot = React.useRef<HTMLDivElement>(null);
 
   React.useLayoutEffect(() => {
@@ -26,7 +26,10 @@ function Example1() {
   }, []);
   return (
     <>
-      <h1>Basic example doing gsap anitation when component is loaded</h1>
+      <h1>
+        Basic example doing gsap anitation when component is loaded using gsap
+        context
+      </h1>
       <div className='playground' ref={gsapRoot}>
         <div className='box' />
         <div className='box' />
@@ -36,4 +39,4 @@ function Example1() {
   );
 }
 
-export default Example1;
+export default Example;
